@@ -1,0 +1,63 @@
+.header {
+    background-color: blue;
+    color: #ff6666;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lucida Sans", sans-serif;
+}
+.main {
+    background-color: lightblue;
+    color: blue;
+    font-size: 30px;
+    font-family: "Lucida Sans", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.footer {
+    background-color: gray;
+    color: #ff6666;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lucida Sans", sans-serif;
+}
+.Products {
+    border-bottom: 2px solid Red;
+    border-top: 2px solid Red;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    text-align: center;
+}
+.carousel_container {
+    height:1100px;
+    width:500px;
+    margin:auto;
+}
+.carousel_container img {
+
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.product_container {
+    width:350px;
+    padding:20px 40px;
+    background-color:whitesmoke;
+    border-bottom:5px solid red;  
+}
+.product_container p {
+    padding-top:20px;
+    border-top:1px solid gray;
+    line-height:30px;
+    transition-property:background-image;
+    transition-duration:1.5s;
+    transition-timing-function:ease;
+    transition-delay:10s;
+}
+    .product_container:hover {
+        background-image:url(https://m.media-amazon.com/images/I/A1wpqSGuCNL.jpg);
+        background-size: cover;
+        background-position:center;
+        color:white;
+        border-top:5px solid red;
+      }
